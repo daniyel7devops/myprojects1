@@ -1,0 +1,11 @@
+<header>
+  <h2>{{$ctrl.title}}</h2>
+  <ul>
+    <li>
+      <a href="/home" ng-class="{'active':$ctrl.isActive('/home')}">Home</a>
+    </li>
+    <li>
+      <a href="/about" ng-class="{'active':$ctrl.isActive('/about')}">About</a>
+    </li>
+  </ul>
+</header>

@@ -1,0 +1,28 @@
+header {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0 15px 0;
+  width: 100%;
+  box-shadow: 0 2px 2px 0 #bbb;
+}
+
+header ul {
+  padding-left: 0;
+}
+
+header ul li {
+  display: inline;
+}
+
+header ul li a {
+  color: var(--link-color);
+  padding: 10px;
+  border-radius: 4px;
+  transition: 0.2s ease-in-out background-color;
+}
+
+header ul li a.active {
+  background-color: #666;
+}
